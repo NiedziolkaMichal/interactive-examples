@@ -23,7 +23,7 @@ def buildSite() {
       throw err
     }
   }
-}
+} 
 
 def syncS3(String bucket, String extra_args='') {
   stage ('s3 sync') {
